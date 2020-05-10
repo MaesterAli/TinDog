@@ -144,22 +144,27 @@ p.features {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 5% 25% 3%;
+  padding: 7% 22%;
   text-align: center;
 }
 
 .cta-heading {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
-  margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 /* Footer Section */
 
 #footer {
   background-color: #fff;
-  padding: 5%;
+  padding: 7% 15%;
   text-align: center;
+}
+
+.footer-link {
+  margin: 20px 10px;
+  color: #000000;
 }
 
 .footer-text {
