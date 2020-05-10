@@ -50,10 +50,10 @@ h1 {
 
 .title-img {
   position: absolute;
-  right: 30%;
+  right: 27%;
   /* top: 5%; */
   transform: rotate(25deg);
-  width: 60%;
+  width: 50%;
 }
 
 #features {
@@ -137,4 +137,46 @@ p.features {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 25% 3%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  padding: 5%;
+  text-align: center;
+}
+
+.footer-text {
+  color: grey;
+}
+
+@media (max-width: 1080px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .img-div {
+    padding-top: 30px;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
 }
