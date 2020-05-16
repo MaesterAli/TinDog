@@ -1,24 +1,43 @@
 
 body {
   font-family: 'Montserrat';
+  text-align: center;
 }
 
-#title {
-  background-color: #FF4C68;
-  color: #FFF;
+p {
+  color: #8F8F8F;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
-}
+/* Headings */
 
-h1 {
-  font-family: "Montserrat";
+.big-heading {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
 
+.section-heading {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #FF4C68;
+  color: #FFF;
+}
+
+.white-section {
+  background-color: #FFF;
+}
 
 /* Navigation Bar */
 
@@ -42,10 +61,11 @@ h1 {
   font-weight: 100;
 }
 
-/* Download Buttons */
+/* Title Section */
 
-.download-btn {
-  margin: 5% 3% 5% 0;
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .title-img {
@@ -56,16 +76,14 @@ h1 {
   width: 50%;
 }
 
-#features {
-  background-color: #FFF;
-  position: relative;
-  text-align: center;
-  z-index: 1;
+/* Download Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
 }
 
-
-.features-col {
-  padding-top: 10%;
+#features {
+  position: relative;
 }
 
 .features-icon {
@@ -78,13 +96,12 @@ h1 {
   color: #FF4C68;
 }
 
-h3.features {
+.feature-title {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
 p.features {
-  color: #8F8F8F;
   margin: 0 auto;
   padding: 0 7%;
 }
@@ -93,21 +110,12 @@ p.features {
 
 #testimonials {
   background-color: #EF8172;
-  color: #FFF;
-  text-align: center;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
-#testimonials h2 {
-  color: #FFF;
-  line-height: 1.5;
-  font-family: "Montserrat";
+.testimonial-text {
+  font-weight: 600;
   font-size: 3rem;
-  font-weight: 900;
-
+  line-height: 1.5;
 }
 
 .testimonials-img {
@@ -121,7 +129,6 @@ p.features {
 #press {
   background-color: #EF8172;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .press-logo {
@@ -139,28 +146,21 @@ p.features {
   padding: 3% 2%;
 }
 
-/* CTA Section */
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-  padding: 7% 22%;
-  text-align: center;
+.price-title {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.cta-heading {
-  font-size: 3.5rem;
-  font-weight: 900;
+.price-text {
+  font-weight: 600;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
-/* Footer Section */
+/* CTA Section */
 
-#footer {
-  background-color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-}
+
+/* Footer Section */
 
 .footer-link {
   margin: 20px 10px;
